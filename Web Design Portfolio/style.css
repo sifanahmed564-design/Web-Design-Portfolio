@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+  background-color:#36C9D9;
+font-family: "Nunito", sans-serif;
+}
+
+.buttons-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #36C9D9;
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home-button,
+.about-button,
+.project-button {
+    height: 50px;
+    width: 33.33%;
+    background-color:#454545;
+    border-color: #454545;
+    border-width: 2px;
+}
+
+.intro-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-me{
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.intro-text{
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #454545;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #36C9D9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+.new-york-city {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.picture-me{
+  display:block;
+  margin-left:700px;
+  margin-right:45px;
+}
+.project {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.netflix-move {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.abouttext{
+  color:#454545
+}
+
+.hometext{
+  color:#454545
+}
+
+.projecttext{
+  color:#454545
+}
+
+.new-york-city {
+  border:4px;
+}
+
+    .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
